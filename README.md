@@ -28,7 +28,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 ```
 
@@ -45,7 +45,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn
 4️⃣ Split the dataset into training and testing sets.  
 
 ## 💡 Model Training
-- The **Random Forest Classifier** model is used for classification.
+- The **Logistic Regression** model is used for classification.
 - The dataset is split into **training (80%) and testing (20%)** sets.
 - The model is trained on the training dataset.
 
@@ -62,7 +62,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn
 3️⃣ Observe the performance metrics of the model.  
 
 ## 🔥 Future Enhancements
-- Implement **additional machine learning models** (e.g., **Logistic Regression, XGBoost**) for comparison.  
+- Implement **additional machine learning models** (e.g., **Linear Regression, XGBoost, SVM**) for comparison.  
 - Improve **feature engineering** for better predictions.  
 - Tune **hyperparameters** for better accuracy.  
 - Deploy the model as a **web application** for user interaction.  
